@@ -359,7 +359,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
             <!-- Footer -->
             <footer id="footer">
-                <p class="copyright">&copy; Personal Portfolio. Design: <a href="https://html5up.net">HUSNA</a>.</p>
+<p class="copyright">&copy; Personal Portfolio. Design: <a href="https://html5up.net">HUSNA</a> </p>
             </footer>
 
         </div>
@@ -374,41 +374,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
 
-        <script>
-                       function validateForm() {
-                           // Reset previous error messages
-                           document.getElementById('nameError').textContent = '';
-                           document.getElementById('emailError').textContent = '';
-                           document.getElementById('messageError').textContent = '';
-
-                           var name = document.getElementById('name').value;
-                           var email = document.getElementById('email').value;
-                           var message = document.getElementById('message').value;
-
-                           var isValid = true;
-
-                           // Basic validation for the name field
-                           if (name.trim() === '') {
-                               document.getElementById('nameError').textContent = 'Name is required';
-                               isValid = false;
-                           }
-
-                           // Basic email validation
-                           var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                           if (email.trim() === '' || !emailRegex.test(email)) {
-                               document.getElementById('emailError').textContent = 'Valid email is required';
-                               isValid = false;
-                           }
-
-                           // Basic validation for the message field
-                           if (message.trim() === '') {
-                               document.getElementById('messageError').textContent = 'Message is required';
-                               isValid = false;
-                           }
-
-                           return isValid;
-                       }
-        </script>
+       
 
     </body>
 </html>
